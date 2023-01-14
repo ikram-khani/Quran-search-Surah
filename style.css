@@ -1,0 +1,17 @@
+
+footer {
+    background-color: #1d68a7;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+header {
+    background-color: #1d68a7;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+body{
+    background-image: linear-gradient(to right, #22c1c3, #fdbb2d);
+    text-decoration-color: #fff;
+}
