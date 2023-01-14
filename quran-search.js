@@ -22,7 +22,7 @@ function searchQuran() {
         results.innerHTML += "<h3>Ayah " + foundAyah.number + ":</h3>";
         results.innerHTML += "<h5>" + foundAyah.text + "</h5>";
       } else {
-        results.innerHTML += "<p>Ayah not found in this surah</p>";
+        results.innerHTML += "<p>The Ayah you searched for, not found in this surah!</p>";
       }
       var firstAyah =surahData.ayahs[0];
       var lastAyah=surahData.ayahs[surahData.ayahs.length-1];
