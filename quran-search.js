@@ -19,7 +19,7 @@ function searchQuran() {
       var foundAyah = null;
       var ayahs='<div>';
       surahData.ayahs.forEach(function(ayah) {
-        ayahs+= "<span class='text-right fw-bold h6'><span class='fw-normal'>-" + ayah.number + "-</span>" + ayah.text + "</span>";
+        ayahs+= "<span class='text-right fw-bold h6'><span class='fw-normal'> (" + ayah.number + ")</span> " + ayah.text +" </span>";
         if (ayah.numberInSurah == ayahNumber) {
           foundAyah = ayah;
         }
