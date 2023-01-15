@@ -15,3 +15,30 @@ body{
     background-image: linear-gradient(to right, #22c1c3, #fdbb2d);
     text-decoration-color: #fff;
 }
+.loading-spinner{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #f5f5f5;
+    z-index: 99999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+ .loading-spinner::before {
+   content: "";
+   display: inline-block;
+   width: 80px;
+   height: 80px;
+   border: 4px solid #ddd;
+   border-top-color: #f00;
+   border-radius: 50%;
+   animation: spinner 1s linear infinite;
+ }
+ 
+ @keyframes spinner {
+   to {transform: rotate(360deg);}
+ }
+ 
