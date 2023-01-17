@@ -36,7 +36,8 @@ function searchQuran() {
       var firstAyah =surahData.ayahs[0];
       var lastAyah=surahData.ayahs[surahData.ayahs.length-1];
       var rangeOfSurah=document.getElementById("range-of-surah");
-      rangeOfSurah.innerHTML="<h5>The Surah starts from Ayah "+firstAyah.number+" to Ayah "+lastAyah.number+"</h5>";
+      var range="<h6 class='mb-5'>The Surah starts from Ayah-"+firstAyah.number+"- to Ayah-"+lastAyah.number+"</h6>"
+      rangeOfSurah.innerHTML=range;
       
 
       
