@@ -14,6 +14,7 @@ header {
 body{
     background-image: linear-gradient(to right, #22c1c3, #fdbb2d);
     text-decoration-color: #fff;
+    overflow: auto;
 }
 .loading-spinner{
     position: absolute;
@@ -37,6 +38,7 @@ body{
    border-radius: 50%;
    animation: spinner 1s linear infinite;
  }
+ 
  
  @keyframes spinner {
    to {transform: rotate(360deg);}
